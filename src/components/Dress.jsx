@@ -42,7 +42,7 @@ function Dress(){
         <>
         <style>{`
             body{
-                background-image: url("/back.png");
+                background-image: url("./back.png");
                 background-size: cover;
                 background-position: center;
                 margin: 0;
@@ -244,7 +244,7 @@ function Dress(){
                 {`
 
             body{
-                background-image: url("/back2.png");
+                background-image: url("./back2.png");
                 background-size: cover;
                 background-position: center;
                 margin: 0;

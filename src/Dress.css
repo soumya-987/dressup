@@ -4,18 +4,8 @@ html,body,#root{
     margin: 0;
   
 }
-/* body{
-    background-image: url("/back.png");
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 body.peagent{
-    background-image: url("/back2.png");
+    background-image: url("./back2.png");
     background-size: cover;
 
 }
@@ -208,6 +198,6 @@ body.peagent{
     background: red;
 }
 body.peagent{
-    background-image: url(/back2.png);
+    background-image: url(./back2.png);
     background-size: cover;
 }
