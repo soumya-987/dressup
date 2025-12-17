@@ -1,16 +1,101 @@
-# React + Vite
+# 🎀 Dress-Up Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive dress-up game built with React where you can style a character for a pageant! Mix and match various clothing items to create the perfect fashion look.
 
-Currently, two official plugins are available:
+## 🎮 Live Demo
+[Add your live demo link here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- **Multiple Clothing Categories**: Choose from tops, dresses, jackets, jeans, shoes, sweaters, and caps
+- **Real-time Preview**: See your character update instantly as you select different clothing items
+- **Layer System**: Clothing items are properly layered with correct z-index ordering
+- **Two Modes**: 
+  - Dressing Room: Style your character with available wardrobe
+  - Pageant Mode: Showcase your creation on a special stage
+- **Responsive Design**: Works on various screen sizes
+- **Interactive UI**: Clean and intuitive button controls
 
-## React Compiler
+## 🛠️ Technologies Used
+- **React** - Frontend framework
+- **CSS** - Styling and animations
+- **JavaScript** - Game logic
+- **Vite** - Build tool and development server
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 How to Run Locally
 
-## Expanding the ESLint configuration
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/soumya-987/dressup-game.git
+   cd dressup-game
+🎯 How to Play
+Click "Start Styling" to begin
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Use the category buttons at the bottom to select clothing types:
+
+Top: Choose from different tops
+
+Dress: Select from various dresses
+
+Jacket: Add jackets over your outfit
+
+Jean: Pick from jeans options
+
+Sweater: Add cozy sweaters
+
+Shoe: Choose footwear
+
+Cap: Complete the look with headwear
+
+Click "R" buttons to remove clothing items
+
+Click "go to peagent" to see your styled character on the pageant stage!
+
+📁 Project Structure
+text
+dressup-game/
+├── public/              # Static assets
+│   ├── back.png        # Dressing room background
+│   └── back2.png       # Pageant background
+├── src/
+│   ├── assets/         # Character and clothing images
+│   ├── components/     # React components
+│   │   └── Dress.jsx   # Main game component
+│   ├── App.jsx         # Main App component
+│   ├── App.css         # Global styles
+│   ├── Dress.css       # Game-specific styles
+│   └── main.jsx        # Application entry point
+├── index.html          # HTML template
+├── package.json        # Dependencies and scripts
+└── README.md           # This file
+🎨 Clothing Items
+The game includes a variety of clothing items:
+
+2 Tops: Different styles for the upper body
+
+3 Dresses: Various dress designs
+
+2 Jackets: Outerwear options
+
+2 Jeans: Different jean styles
+
+3 Sweaters: Cozy sweater selections
+
+4 Shoes: Multiple footwear choices
+
+1 Cap: Headwear option
+
+👤 Author
+Soumya Jain
+
+GitHub: @soumya-987
+
+🙏 Acknowledgements
+Character and clothing assets created for this project
+
+Built with React and Vite
+
+Inspired by classic dress-up games
+
+![screenshot 1](ss1.jpeg)
+![screenshot 2](ss2.jpeg)
+
