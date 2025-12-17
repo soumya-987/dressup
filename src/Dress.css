@@ -1,0 +1,213 @@
+
+html,body,#root{
+    height: 100%;
+    margin: 0;
+  
+}
+/* body{
+    background-image: url("/back.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+body.peagent{
+    background-image: url("/back2.png");
+    background-size: cover;
+
+}
+.game-container{
+    backdrop-filter: blur;
+    position: relative;
+    height: 850px;
+    width: 300px;
+}
+.layer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.character{
+    z-index: 1;
+    top: 29.5%;
+    scale: 0.5;
+    left: 20.9%;
+}
+.buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    z-index: 9999;
+    transform: translateX(-50%);
+}
+.buttons button{
+    padding: 12 px 22 px;
+    border-radius: 25px;
+    backdrop-filter: blur(8px);
+    background: rgba(223, 9, 9, 0.25);
+    border: 1px solid rgba(210, 149, 149, 0.4);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.buttons button:hover{
+    background: rgba(255, 255, 255, 0.4);
+    color: rgb(69, 61, 61);
+}
+.top{
+    z-index: 4;
+}
+.top1{
+    left: 52.5%;
+    top: 47.5%;
+    scale: 1.1;
+}
+.top2{
+    left: 52%;
+    top: 48%;
+
+}
+.sweat{
+    z-index: 5;
+}
+.sweat1{
+    left: 51%;
+    top: 48.5%;
+}
+.sweat2{
+    left: 51.5%;
+    top: 47%;
+}
+.skirt1{
+    scale: 1.05;
+    top: 51%;
+    left: 51.5%;
+
+}
+.sweat3{
+    left: 51%;
+    top: 49%;
+}
+.skirt{
+    z-index: 3;
+}
+.skirt2{
+    top: 49%;
+
+}
+.skirt3{
+    left: 51%;
+    scale: 1.1;
+    top: 51.5%;
+
+}
+.leg{
+    z-index: 1;
+}
+.leg1{
+    left: 53.5%;
+    top: 68%;
+    scale: 1.1;
+}
+.leg2{
+    top: 68%;
+    left: 56.5%;
+    scale: 1.1;
+}
+.leg3{
+    top:68%;
+    left: 51.5%;
+    scale: 1.1;
+}
+.leg4{
+    top: 65%;
+    left: 52.3%;
+    scale: 1.1;
+}
+.jean{
+    z-index: 2;
+}
+.jacket{
+    z-index: 6;
+}
+.jacket1{
+    top: 48.6%;
+    left: 53%;
+}
+.jacket2{
+    top: 48%;
+    left: 53%;
+    scale: 1.1;
+}
+.jean1{
+    top: 59%;
+    left: 54%;
+    scale: 1.2;
+}
+.jean2{
+    top: 57.5%;
+    left: 51.3%;
+    scale: 1.1;
+}
+.cap{
+    z-index: 5;
+    left: 54%;
+    top: 32.5%;
+}
+.girly{
+    z-index: 6000;
+    position: fixed;
+    scale: 0.7;
+    left: 15%;
+    top: -18%;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+.modal-backdrop.fade.show {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(5, 0, 0, 0.985);  /* ← the shadow/dim effect */
+  z-index: 3000;
+
+  transition: opacity 1s ease-out;
+}
+.modal{
+    z-index: 5000;
+    left: 1%;
+    top: 15%;
+}
+.head{
+  font-family: "Fredoka", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: hwb(129 3% 60% / 0.968);
+  background-color: #e8e1e161;
+  border-radius: 30px;
+ 
+  margin: 0 auto;
+ 
+ 
+  box-shadow: 0 4px 10px rgba(20, 111, 58, 0.4);
+  text-shadow: 0px 0px 6px rgba(11, 46, 9, 0.9);
+
+}
+.remove{
+    color: #e8e1e161;
+}
+.uhu{
+    position: fixed;
+    top: -500%;
+    left: -100%;
+    background: red;
+}
+body.peagent{
+    background-image: url(/back2.png);
+    background-size: cover;
+}
