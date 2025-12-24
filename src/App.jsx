@@ -1,4 +1,4 @@
-import Dress from './components/dress'
+import Dress from './components/Dress'
 import './Dress.css'
 import { useState } from 'react'
 
