@@ -7,6 +7,9 @@ function App() {
 
   return (
     <>
+    <div style={{ color: "red", fontSize: "32px" }}>
+      HELLO VERCEL
+    </div>
       <div>
         <Dress></Dress>
        
