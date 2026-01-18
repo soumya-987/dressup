@@ -5,7 +5,7 @@ html,body,#root{
   
 }
 body.peagent{
-    background-image: url("./back2.png");
+    background-image: url("/back2.png");
     background-size: cover;
 
 }
@@ -157,17 +157,17 @@ body.peagent{
     opacity: 1;
     transition: opacity 1s ease-out;
 }
-.modal-backdrop.fade.show {
+/* .modal-backdrop.fade.show {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(5, 0, 0, 0.985);  /* ← the shadow/dim effect */
+  background-color: rgba(5, 0, 0, 0.985); 
   z-index: 3000;
 
   transition: opacity 1s ease-out;
-}
+} */
 .modal{
     z-index: 5000;
     left: 1%;
